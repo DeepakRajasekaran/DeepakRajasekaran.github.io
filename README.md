@@ -1,2 +1,0 @@
-# deepakrajasekaran.github.io
- 
