@@ -261,6 +261,32 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+  /**
+   * Loader
+   */
+  window.addEventListener('load', function() {
+    // Preload images
+    var images = document.querySelectorAll('img');
+    var loadedImages = 0;
+  
+    function imageLoaded() {
+      loadedImages++;
+      if (loadedImages === images.length) {
+        // All images loaded, hide loader and show content
+        document.querySelector('.loader').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+      }
+    }
+  
+    images.forEach(function(img) {
+      if (img.complete) {
+        imageLoaded();
+      } else {
+        img.addEventListener('load', imageLoaded);
+      }
+    });
+  });
+  
 
 })()
 
