@@ -1,33 +1,6 @@
 
 (function() {
   "use strict";
-
-  /**
-   * Loader
-   
-  window.addEventListener('load', function() {
-    // Preload images
-    var images = document.querySelectorAll('img');
-    var loadedImages = 0;
-  
-    function imageLoaded() {
-      loadedImages++;
-      if (loadedImages === images.length) {
-        // All images loaded, hide loading page and show content
-        document.getElementById('loading').style.display = 'none';
-        document.body.style.display = 'block'; // Display index.html content
-      }
-    }
-  
-    images.forEach(function(img) {
-      if (img.complete) {
-        imageLoaded();
-      } else {
-        img.addEventListener('load', imageLoaded);
-      }
-    });
-  }); */
-  
   
   /**
    * Easy selector helper function
