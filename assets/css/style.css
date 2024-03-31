@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #b2c143;
+  color: #DEF154;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b2c143;
+  background: #DEF154;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -171,7 +171,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #b2c143;
+  color: #DEF154;
 }
 
 .navbar .dropdown:hover>ul {
@@ -267,7 +267,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #b2c143;
+  color: #DEF154;
 }
 
 .navbar-mobile .getstarted,
@@ -302,7 +302,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #b2c143;
+  color: #DEF154;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -371,7 +371,7 @@ h6 {
 }
 
 #hero .btn-scroll:hover {
-  color: #b2c143;
+  color: #DEF154;
 }
 
 @media (min-width: 1024px) {
@@ -551,7 +551,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #b2c143;
+  color: #DEF154;
   line-height: 0;
 }
 
@@ -566,7 +566,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #b2c143;
+  color: #DEF154;
   float: left;
   line-height: 0;
 }
@@ -620,7 +620,7 @@ section {
 }
 
 .about .button-container button {
-  background: #b2c143;
+  background: #DEF154;
   border: 0;
   padding: 10px 24px;
   color: black;
@@ -699,7 +699,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: black;
-  background-color: #b2c143;
+  background-color: #DEF154;
 }
 
 
@@ -769,7 +769,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #b2c143;
+  color: #DEF154;
 }
 
 .portfolio .portfolio-item .portfolio-info .portfolio-links {
@@ -808,11 +808,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b2c143;
+  border: 1px solid #DEF154;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b2c143;
+  background-color: #DEF154;
 }
 
 .portfolio-details .portfolio-info {
@@ -903,7 +903,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #b2c143;
+  background: #DEF154;
   color: black;
   line-height: 1;
   padding: 8px 0;
