@@ -272,9 +272,8 @@
     function imageLoaded() {
       loadedImages++;
       if (loadedImages === images.length) {
-        // All images loaded, hide loader and show content
-        document.querySelector('.loader').style.display = 'none';
-        document.getElementById('content').style.display = 'block';
+        // All images loaded, redirect to index.html
+        window.location.href = 'index.html';
       }
     }
   
@@ -286,6 +285,7 @@
       }
     });
   });
+  
   
   
 
