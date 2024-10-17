@@ -252,7 +252,7 @@
    * Initiate Typed.js
    */
   var typed = new Typed('.typing',{
-    strings: ["Student.","Mechatronics_Engineer.","Roboticist.","Coder.","Pythonist.","Geek.", "Tech_Enthusiast."],
+    strings: ["Robotics Engineer.","Geek.", "Tech_Enthusiast."],
     loop: true,
     typeSpeed: 65,
     backSpeed: 65
